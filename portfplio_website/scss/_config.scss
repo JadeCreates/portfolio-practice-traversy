@@ -1,0 +1,25 @@
+// Variables
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+// Widths
+$website-width: 1280px;
+
+// Colors
+$main-color: #ffbc00;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+
+// Text
+$heading-text: "Quicksand", sans-serif;
+$normal-text: "Open Sans", sans-serif;
+
+// Images
+$bg-image: url(../img/showcase.jpg);
